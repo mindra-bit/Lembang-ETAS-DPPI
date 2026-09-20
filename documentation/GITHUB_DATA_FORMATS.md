@@ -1,0 +1,3 @@
+# GitHub data formats
+
+To keep the repository transparent and portable, the audited workbook inputs required by the computation are represented as CSV files, and the spatial layers required by the analysis are represented as GeoJSON. These files preserve the values and geometries used by the analysis while avoiding dependence on proprietary or container-specific binary formats. The Bandung City district geometries are exact district unions from the audited administration layer. The regional regency/city layer is simplified only for map context and is not used in model fitting or DPPI calculation.
